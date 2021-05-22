@@ -9,13 +9,15 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <form action="/login" method="POST">
+        <form action="/auth/login" method="POST">
             <label for="email">Email</label>
             <input type="text" placeholder="Enter email" name="email" required>
             <label for="password">Password</label>
             <input type="password" placeholder="Enter password" name="password" required>
             <button type="submit">Login</button>
+
         </form>
+        <a href="/auth/reset">Forgot password</a>
         <script src="" async defer></script>
     </body>
 </html>
